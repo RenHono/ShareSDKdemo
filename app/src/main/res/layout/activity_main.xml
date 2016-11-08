@@ -11,9 +11,13 @@
     tools:context="xyz.renhono.sharesdkdemo.MainActivity">
 
     <Button
-        android:onClick="onFenxiang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onFenxiang"
         android:text="分享" />
 
+    <Button
+        android:id="@+id/xxx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
